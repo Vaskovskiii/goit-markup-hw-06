@@ -705,7 +705,7 @@ color: #FFFFFF;
 }
 
 .footer-subscribe {
-  margin-left: 154px;
+  margin-left: 120px;
 }
 
 .footer-input {
@@ -1048,32 +1048,28 @@ transform: translateY(0);
   align-items: center;
   font-size: 14px;
   line-height: calc(24 / 14);
-  align-items: center;
-  position: relative;
   /*letter-spacing: 0.03em;*/
 
   color: #757575;
 }
 
-.policy-agree {
-  margin-left: 10px;
-}
+
 
 .policy-text::before {
-  display: inline-block;
+  content: '';
   width: 16px;
   height: 15px;
   border: 1px  solid #000000;
   border-radius: 2px;
-  margin-right: 3px;
+  margin-right: 7px;
 }
 
 .policy-check:checked + .policy-text::before {
-  background-image: url(../images/symbol-defs.svg#icon-icon-check);
+  background-image: url(../images/icon-check.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border: none;
+  border: none; 
 }
 
 .btn {
@@ -1101,5 +1097,13 @@ transform: translateY(0);
 }
 
 .text-check {
+  color: #2196F3;
+}
+
+.policy-agree {
+  margin-right: 10px;
+}
+
+.policy-text-check {
   color: #2196F3;
 }
